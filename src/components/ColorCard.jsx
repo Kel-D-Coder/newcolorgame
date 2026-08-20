@@ -12,7 +12,7 @@ export default function ColorCard({ color, className = "" }) {
   return (
     <motion.div
       whileHover={{ y: -14, rotate: 0, transition: { type: "spring", stiffness: 300, damping: 18 } }}
-      className={`w-24 sm:w-28 bg-white hard-border rounded-chip shadow-card-sm overflow-hidden shrink-0 ${className}`}
+      className={`w-20 sm:w-28 bg-white hard-border rounded-chip shadow-card-sm overflow-hidden shrink-0 ${className}`}
     >
       <div className="bg-ink text-white text-center py-1.5">
         <span className="tag-label">NewColor</span>
