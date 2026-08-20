@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  .tag-label {
+    @apply font-tag text-xs uppercase tracking-[0.2em];
+  }
+
+  /* Thicker ink border, reserved for the CardDice-style brand elements */
+  .hard-border {
+    @apply border-2 border-ink;
+  }
+
+  /* Refined border for general UI surfaces */
+  .soft-border {
+    @apply border border-ink/10;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
