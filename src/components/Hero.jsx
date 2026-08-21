@@ -49,8 +49,7 @@ export default function Hero() {
         </motion.p>
 
         <motion.p variants={item} className="mt-3 text-sm text-ink/60 max-w-md">
-          Throw a color, match a letter, spell a word — the board game that turns colors into
-          strategy for the whole family.
+          Newcolorgame was invented by Gideon Zion. it is a strategy board game created and made in Nigeria that uses colors to train the mind and brain. Because NEWCOLORGAME is incredibly easy to learn and requires no language barrier, it serves as an excellent recreational asset for hotels, resorts, cafes, and tourism centers worldwide.It brings people together through play, creating memorable expriences for both locals and travelers.
         </motion.p>
 
         <motion.div variants={item} className="mt-8 flex flex-wrap gap-4">

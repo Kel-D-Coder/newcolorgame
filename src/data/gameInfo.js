@@ -9,7 +9,7 @@ export const brand = {
   whatsappHref: "https://wa.me/2348079088854",
   email: "giddlink@gmail.com",
   social: {
-    instagram: "https://www.instagram.com/d_reggae_rocker_?igsh=NHJqdXduOGI5eDkz",
+    instagram: "https://www.instagram.com/newcolorgame_2026?igsi=N2c5aTZueDM1aHM=",
     tiktok: "https://tiktok.com/@newcolorgame",
     facebook: "https://www.facebook.com/share/1KwA7L3yiX/"
   },
