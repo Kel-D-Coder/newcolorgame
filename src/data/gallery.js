@@ -22,45 +22,53 @@ import img21 from "../assets/images/IMG-20260814-WA0078.jpg"
 import img22 from "../assets/images/IMG-20260814-WA0081.jpg"
 import img23 from "../assets/images/IMG-20260814-WA0082.jpg"
 // import img24 from "../assets/images/IMG-20260814-WA0085.jpg"
-import img25 from "../assets/images/IMG-20260820-WA0016.jpg"
+import img25 from "../assets/images/IMG-20260819-WA0051.jpg"
+import img26 from "../assets/images/IMG-20260822-WA0040.jpg"
+import img27 from "../assets/images/IMG-20260822-WA0038.jpg"
 import vid1 from "../assets/images/VID-20260814-WA0095.mp4"
 import vid2 from "../assets/images/VID-20260814-WA0096.mp4"
 import vid3 from "../assets/images/VID-20260814-WA0099.mp4"
 import vid4 from "../assets/images/VID-20260814-WA0100.mp4"
 import vid5 from "../assets/images/VID-20260820-WA0033.mp4"
 import vid6 from "../assets/images/VID-20260820-WA0034.mp4"
+import vid7 from "../assets/images/VID-20260822-WA0007.mp4"
+import vid8 from "../assets/images/VID-20260822-WA0006.mp4"
 
 export const galleryItems = [
   { type: "image", src: img25, alt: "The full NewColorGame set" },
-  { type: "image", src: img1, alt: "The full NewColorGame set" },
-  { type: "image", src: img2, alt: "The full NewColorGame set" },
+  // { type: "image", src: img1, alt: "The full NewColorGame set" },
+  // { type: "image", src: img2, alt: "The full NewColorGame set" },
   { type: "video", src: vid1, poster: "", alt: "NewColorGame gameplay clip" },
   { type: "image", src: img3, alt: "The full NewColorGame set" },
   { type: "image", src: img4, alt: "The full NewColorGame set" },
+  { type: "image", src: img26, alt: "The full NewColorGame set" },
+  { type: "image", src: img27, alt: "The full NewColorGame set" },
   // { type: "image", src: img5, alt: "The full NewColorGame set" },
   // { type: "image", src: img6, alt: "The full NewColorGame set" },
   { type: "video", src: vid2, poster: "", alt: "NewColorGame gameplay clip" },
-  { type: "image", src: img7, alt: "The full NewColorGame set" },
-  { type: "image", src: img9, alt: "The full NewColorGame set" },
-  { type: "image", src: img10, alt: "How to play NewColorGame" },
+  // { type: "image", src: img7, alt: "The full NewColorGame set" },
+  // { type: "image", src: img9, alt: "The full NewColorGame set" },
+  // { type: "image", src: img10, alt: "How to play NewColorGame" },
   { type: "video", src: vid3, poster: "", alt: "NewColorGame gameplay clip" },
-  { type: "image", src: img8, alt: "The full NewColorGame set" },
-  { type: "image", src: img10, alt: "The full NewColorGame set" },
-  { type: "image", src: img11, alt: "The full NewColorGame set" },
-  { type: "image", src: img12, alt: "The full NewColorGame set" },
+  // { type: "image", src: img8, alt: "The full NewColorGame set" },
+  // { type: "image", src: img10, alt: "The full NewColorGame set" },
+  // { type: "image", src: img11, alt: "The full NewColorGame set" },
+  // { type: "image", src: img12, alt: "The full NewColorGame set" },
   { type: "image", src: img13, alt: "The full NewColorGame set" },
   { type: "video", src: vid5, poster: "", alt: "NewColorGame gameplay clip" },
-  { type: "image", src: img14, alt: "The full NewColorGame set" },
-  { type: "image", src: img15, alt: "The full NewColorGame set" },
-  { type: "image", src: img16, alt: "The full NewColorGame set" },
-  { type: "image", src: img17, alt: "The full NewColorGame set" },
+  // { type: "image", src: img14, alt: "The full NewColorGame set" },
+  // { type: "image", src: img15, alt: "The full NewColorGame set" },
+  // { type: "image", src: img16, alt: "The full NewColorGame set" },
+  // { type: "image", src: img17, alt: "The full NewColorGame set" },
   { type: "video", src: vid6, poster: "", alt: "NewColorGame gameplay clip" },
+  { type: "video", src: vid7, poster: "", alt: "NewColorGame gameplay clip" },
+  { type: "video", src: vid8, poster: "", alt: "NewColorGame gameplay clip" },
   { type: "image", src: img18, alt: "The full NewColorGame set" },
   { type: "image", src: img19, alt: "The full NewColorGame set" },
-  { type: "image", src: img20, alt: "The full NewColorGame set" },
-  { type: "image", src: img21, alt: "The full NewColorGame set" },
-  { type: "image", src: img22, alt: "The full NewColorGame set" },
-  { type: "image", src: img23, alt: "The full NewColorGame set" },
+  // { type: "image", src: img20, alt: "The full NewColorGame set" },
+  // { type: "image", src: img21, alt: "The full NewColorGame set" },
+  // { type: "image", src: img22, alt: "The full NewColorGame set" },
+  // { type: "image", src: img23, alt: "The full NewColorGame set" },
   // { type: "image", src: img24, alt: "The full NewColorGame set" },
   { type: "video", src: vid4, poster: "", alt: "NewColorGame gameplay clip" },
 ];
