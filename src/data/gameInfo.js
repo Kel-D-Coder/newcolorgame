@@ -1,6 +1,6 @@
 export const brand = {
   name: "NewColorGame",
-  tagline: "Easy to learn, fun to play, but hard to master.",
+  tagline: "Easy to learn, fun to play, and rewarding to master.",
   origin: "Invented and made in Nigeria",
   creator: "Gideon Zion",
   players: "2 or more",
