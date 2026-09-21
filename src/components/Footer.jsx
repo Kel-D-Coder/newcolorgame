@@ -81,9 +81,11 @@ export default function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-cream/10 py-5 text-center text-cream/50 text-xs">
-        Created by {brand.creator} · {brand.origin} · ©{" "}
-        {new Date().getFullYear()} {brand.name}
+      <div className="border-t border-cream/10 py-6 px-5 text-center text-cream/50 text-xs leading-relaxed">
+        <p className="tag-label text-cream/70 mb-2">NEWCOLORGAME</p>
+        <p>Created by Gideon Zion Ibeh in 2007</p>
+        <p>Officially registered with the Nigerian Copyright Commission</p>
+        <p>Reg. No. LW8455, All Rights Reserved.</p>
       </div>
     </footer>
   );
